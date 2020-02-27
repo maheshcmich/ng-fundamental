@@ -1,0 +1,8 @@
+<h1>ng-template</h1>
+<div class="lessons-list" *ngIf="lessons else loading">
+    ... 
+  </div>
+  
+  <ng-template #loading>
+      <div>Loading...</div>
+  </ng-template>
